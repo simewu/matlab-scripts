@@ -8,6 +8,7 @@ In Excel, calculate the 95% confidence interval of a `RANGE` of cells with
 ```
 =CONCAT(AVERAGE(RANGE), " ± ", CONFIDENCE(1-0.95, STDEV.P(RANGE), COUNT(RANGE)))
 ```
+For bar plot color schemes, please use https://color.adobe.com/explore
 
 ---
 ## [Cumulative Distribution Function Plot](CDF%20Plot/CDFPlotDemo.m)
