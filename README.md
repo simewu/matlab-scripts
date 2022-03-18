@@ -10,6 +10,11 @@ In Excel, calculate the 95% confidence interval of a `RANGE` of cells with
 ```
 
 ---
+## [Cumulative Distribution Function Plot](CDF%20Plot/CDFPlotDemo.m)
+<img src="CDF%20Plot/Screenshot.png" width="300"/>
+The dotted line is the average while the solid line shows the distribution of the data (CDF).
+
+---
 ## [Hatched Bar Plot](https://github.com/simewu/matlab-scripts/blob/main/Hatched%20Bar%20Plot/Hatchfill2BarPlotDemo.m)
 <img src="Hatched%20Bar%20Plot/Screenshot.png" width="300"/>
 Requires three file dependencies:
@@ -19,8 +24,3 @@ Requires three file dependencies:
 * `getpos.m` https://github.com/kakearney/legendflex-pkg/blob/master/setgetpos_V1.2/getpos.m
 
 _Note: Saving a hatched plot as a PDF requires CTRL+S instead of clicking the save icon, since the legendflex is a figure in and of itself. The PDF needs to be cropped using a software like Adobe Acrobat._
-
----
-## [Cumulative Distribution Function Plot](CDF%20Plot/CDFPlotDemo.m)
-<img src="CDF%20Plot/Screenshot.png" width="300"/>
-The dotted line is the average while the solid line shows the distribution of the data (CDF).
