@@ -25,3 +25,7 @@ Requires three file dependencies:
 * `getpos.m` https://github.com/kakearney/legendflex-pkg/blob/master/setgetpos_V1.2/getpos.m
 
 _Note: Saving a hatched plot as a PDF requires CTRL+S instead of clicking the save icon, since the legendflex is a figure in and of itself. The PDF needs to be cropped using a software like Adobe Acrobat._
+
+---
+## [Sub-plots](Subplots/SubPlotDemo.m)
+<img src="Subplots/Screenshot.png" width="900"/>
