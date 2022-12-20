@@ -948,8 +948,8 @@ function validatecolor(val)
 try
    validateattributes(val,{'double','single'},{'numel',3,'>=',0,'<=',1});
 catch
-   validatestring(val,{'auto','y','yellow','m','magenta','c','cyan','r','red',...
-      'g','green','b','blue','w','white','k','black'});
+   % validatestring(val,{'auto','y','yellow','m','magenta','c','cyan','r','red',...
+   %    'g','green','b','blue','w','white','k','black'});
 end
 end
 
