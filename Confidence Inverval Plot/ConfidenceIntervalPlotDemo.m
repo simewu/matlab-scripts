@@ -23,6 +23,14 @@ set(gca, 'XMinorTick','on', 'XMinorGrid','on', 'YMinorTick','on', 'YMinorGrid','
 xlim([0 + 0.3, 4 - 0.3]);
 ylim([0, 120]);
 
+function CI = getConfidenceInterval(x)
+    confidence_interval_percent=0.95
+    SEM = std(x)/sqrt(length(x)); % Standard Error
+    tscore = tinv([1-confidence_interval_percent  confidence_interval_percent],length(x)-1);
+    CI = max(tscore*SEM);
+    return;
+end
+
 function plotConfidenceInterval(x, y, yci)
     ci_color = 'black'
     ci_width = 0.1
