@@ -4,6 +4,8 @@ font_size = 18;
 % Read data from file
 data = readmatrix('Bitcoin_Numpeers.csv');
 y = data(:, 3);
+% Remove the 5 percentile outliers with:
+% [y, TF] = rmoutliers(y, 'percentiles', [5 95]);
 hold on;
 
 % Plot the CDF
