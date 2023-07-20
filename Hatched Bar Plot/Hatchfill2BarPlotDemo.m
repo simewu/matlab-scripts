@@ -1,5 +1,5 @@
 % Requirements to get this working:
-%     hatchfill2.m: https://github.com/hokiedsp/matlab-hatchfill2/blob/master/hatchfill2.m
+%     hatchfill2.m: https://github.com/simewu/matlab-scripts/blob/main/Hatched%20Bar%20Plot/hatchfill2.m
 %     legendflex.m: https://github.com/kakearney/legendflex-pkg/blob/master/legendflex/legendflex.m
 %     getpos.m: https://github.com/kakearney/legendflex-pkg/blob/master/setgetpos_V1.2/getpos.m
 
