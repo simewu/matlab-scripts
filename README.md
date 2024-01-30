@@ -30,3 +30,6 @@ _Note: Saving a hatched plot as a PDF requires CTRL+S instead of clicking the sa
 ---
 ## [Sub-plots](Subplots/SubPlotDemo.m)
 <img src="Subplots/Screenshot.png" width="900"/>
+
+---
+## [RGB2HEX](rgb2hex.m) and [HEX2RGB](hex2rgb.m)
