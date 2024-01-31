@@ -42,3 +42,16 @@ function plotConfidenceInterval(x, y, yci)
     % Add a dot in the center
     % plot(x, y, '.', 'Color', ci_color, 'MarkerSize', line_thickness*10, 'HandleVisibility', 'off')
 end
+
+% function plotHorizontalConfidenceInterval(y, x, yci)
+%     ci_color = 'black'
+%     ci_width = 0.1
+%     line_thickness = 1
+%     plot([x - yci, x - yci], [y - ci_width, y + ci_width], 'Color', ci_color, 'LineWidth', line_thickness, 'HandleVisibility','off');
+%     plot([x + yci, x + yci], [y - ci_width, y + ci_width], 'Color', ci_color, 'LineWidth', line_thickness, 'HandleVisibility','off');
+%     plot([x - yci, x + yci], [y, y], 'Color', ci_color, 'LineWidth', line_thickness, 'HandleVisibility','off');
+% 
+%     % Add a dot in the center
+%     % plot(x, y, '.', 'Color', ci_color, 'MarkerSize', line_thickness*10, 'HandleVisibility', 'off')
+% end
+
